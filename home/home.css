@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'SourceHanSansSC-Light';
-    src: url('../font/SourceHanSansSC-Light.ttf') format('truetype'), url('../font/SourceHanSansSC-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 body, html {
     margin: 0;
     padding: 0;
