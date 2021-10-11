@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'SourceHanSansSC-Light';
+    src: url('../font/SourceHanSansSC-Light.ttf') format('truetype'), url('../font/SourceHanSansSC-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'SourceHanSansSC-Light','Microsoft YaHei Light','Microsoft YaHei','Ping Hei','黑体';
+    font-weight: lighter;
+}
+#page0 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#logo {
+    position: absolute;
+    background: url(../logo/bonfire-logo-yashi-v2-color-128px.png) no-repeat;
+    width: 128px;
+    height: 128px;
+    left: 50%;
+    left: calc(50% - 64px);
+    top: 50%;
+    top: calc(50% - 64px);
+}
+#pagedown0 {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    color: #FFF;
+    background-color: transparent;
+    text-align: center;
+}
+#pagedown1 {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    animation: heart 1s ease-in-out 0s infinite alternate;
+}
+#pagedown2 {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border-width: 5px;
+    border-style: none solid solid none;
+    border-color: #888;
+    border-color: rgba(255, 255, 255, 0.2);
+    transform:rotate(45deg);
+    cursor: pointer;
+}
+@keyframes heart{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,6px)}
+}
+.fullblank {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#pagebox {
+    width: 100%;
+    height: 100%;
+}
+.phr {
+    width: 100%;
+    height: 5px;
+    box-shadow: 0px 4px 4px lightgray inset;
+    background-color: #FFF;
+    font-size: 0;
+}
+.pages {
+    padding: 20px;
+}
+.page1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: auto;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 50px;
+    text-shadow: 1px 1px 0px #000;
+    font-weight: lighter;
+    /* line-height: 50px; */
+    padding-top: 20px;
+}
+.pagex {
+    background-color: transparent;
+}
+.page1 h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: normal;
+}
+.page1 p {
+    text-align: center;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.page2 {
+    background: #FFF url(txtbg.png) repeat;
+    text-shadow: 1px 1px 0px #fff;
+    font-weight: lighter;
+}
+.page2 h1 {
+    text-align: center;
+    color: #000;
+    font-size: 28px;
+    font-weight: normal;
+}
+.page2 h2 {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.icontxtbox {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.icontxt {
+    display: inline-block;
+    width: 200px;
+    height: 220px;
+    border:1px solid lightgray;
+    box-shadow: 0px 2px 5px #888;
+    background-color: #FFF;
+    padding: 20px;
+    padding-top: 40px;
+    margin: 20px;
+}
+.icontxt img {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+.icontxt h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+}
+.icontxt h4 {
+    color: gray;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.imgtxt {
+    display: inline-block;
+    width: 240px;
+    height: 370px;
+    border:1px solid lightgray;
+    box-shadow: 0px 2px 5px #888;
+    background-color: #FFF;
+    margin: 20px;
+}
+.imgtxt img {
+    width: 240px;
+    height: 240px;
+}
+.imgtxt h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 10px;
+}
+.imgtxt h4 {
+    color: gray;
+    font-size: 16px;
+    font-weight: lighter;
+}
+#page3 {
+    background-color: #282828;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px #000;
+    font-weight: lighter;
+}
+#page3 h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: normal;
+}
+#page3 a {
+    text-align: center;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#page3 .svg {
+    fill: #FFF;
+}
+#page4 {
+    text-align: center;
+    color: #FFF;
+    font-size: 12px;
+}
+.texta:link {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+.texta:visited {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+.texta:hover {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+.texta:active {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
